@@ -1,37 +1,15 @@
 @charset "utf-8";
-h1 {
-	color: #3D768C;
-	font-family: astloch;
+body {
+	color: #4B4B4B;
+	font-family: source-code-pro;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 250%;
+	background: #EFF5F8;
 }
-h2 {
-	color: #509FEC;
-	font-family: monoton;
-	font-weight: 100;
-	font-size: 175%;
-	text-align: center; 
-}
-p {
-	margin-left: 20px;
-	margin-right: 20px;
-	font-family: "source-code-pro";
-	font-style: normal;
-	font-weight: 200;
-}
-main {
-	background-color: #00F5FF;	
-}
-
-aside {
-	background-color: #ED45E6;
-}
-
-footer {
-	color: #000000;
-	font-size: 75%;
-	background-color: #FFF600;
-	text-align: center;
-	
+#wrapper {
+	width: 100%;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #FFFFFF;
 }
