@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 body {
+  margin:0px;
 	color: #4B4B4B;
 	font-family: source-sans-pro;
 	font-style: normal;
@@ -11,9 +12,8 @@ body {
 #wrapper {
 	width: 100%;
 	max-width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-	background: #FFFFFF;
+	margin: 0 auto;
+	background-color: #FFFFFF;
 }
 
 main, aside {
@@ -30,10 +30,14 @@ footer {
 h1 {
   text-align: center;
   text-transform: uppercase;
-  color: #FB5B1F;
+
   font-size:250%;
 }
 
-h2 {
-  
+#bridge img {
+  width: 100%;
+}
+
+h1, h2{
+  color: #FB5B1F;
 }
